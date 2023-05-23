@@ -13,6 +13,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   background: #b2ef91;
+  flex-direction: column;
 }
 .wrapper {
   width: 450px;
@@ -20,6 +21,7 @@ body {
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 15px 30px rgba(0,0,0,0.06);
+  margin-top: 70px;
 }
 .wrapper .gradient-box {
   height: 220px;
@@ -118,3 +120,10 @@ body {
     margin-left: 0;
   }
 }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 30px 20px 30px;
+    margin-top: auto;
+  }
